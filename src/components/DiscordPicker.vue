@@ -105,11 +105,11 @@ export default defineComponent({
       emojis,
       active: 'gif',
       $sources: {
-        search: 'https://en-zo.dev/vue-discord-emojipicker/search.svg',
-        gif: 'https://en-zo.dev/vue-discord-emojipicker/gif.svg',
-        category: 'https://en-zo.dev/vue-discord-emojipicker/categories/%REPLACE%.svg',
-        variation: 'https://en-zo.dev/vue-discord-emojipicker/variations/variation_%REPLACE%.svg',
-        emoji: 'https://en-zo.dev/vue-discord-emojipicker/sprite_emojis.png'
+        search: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/search.svg',
+        gif: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/gif.svg',
+        category: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/categories/%REPLACE%.svg',
+        variation: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/variations/variation_%REPLACE%.svg',
+        emoji: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/sprite_emojis.png'
       }
     }
   },
