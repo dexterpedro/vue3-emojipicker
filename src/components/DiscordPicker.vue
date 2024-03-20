@@ -107,9 +107,9 @@ export default defineComponent({
       $sources: {
         search: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/search.svg',
         gif: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/gif.svg',
-        category: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/categories/%REPLACE%.svg',
-        variation: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/variations/variation_%REPLACE%.svg',
-        emoji: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/sprite_emojis.png'
+        category: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/%REPLACE%.svg',
+        variation: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/variation_%REPLACE%.svg',
+        emoji: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/emoji.png'
       }
     }
   },
@@ -210,10 +210,7 @@ export default defineComponent({
   width: 28px;
 }
 .vue3-discord-emojipicker__emojibutton {
-  background-position: -22px 0;
-  background-size: 242px 88px;
-  background-repeat: no-repeat;
-  width: 23px;
+  width: 22px;
   height: 22px;
   display: block;
 }
