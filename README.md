@@ -59,7 +59,7 @@ ____
 "gif": `String`
 "emoji": `String`
 "category": `String` (add %REPLACE% in your URL to change with slug, example: `https://en-zo.dev/vue-discord-emojipicker/categories/%REPLACE%.svg` transform into https://en-zo.dev/vue-discord-emojipicker/categories/animals.svg`)
-"variation": `String` (same at category, example: `https://en-zo.dev/vue-discord-emojipicker/variations/variation_%REPLACE%.svg` transform into `https://en-zo.dev/vue-discord-emojipicker/variations/variation_0.svg` (0 - 4))
+"variation": `String` (same at category, example: `https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/variation_%REPLACE%.svg` transform into `https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/variation_0.svg` (0 - 4))
 
 ### Categories
 All categories list:

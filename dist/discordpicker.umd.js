@@ -4963,7 +4963,7 @@ Autocompletevue_type_script_lang_js.render = Autocompletevue_type_template_id_3b
         search: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/search.svg',
         gif: 'https://en-zo.dev/vue-discord-emojipicker/gif.svg',
         category: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/%REPLACE%.svg',
-        variation: 'https://en-zo.dev/vue-discord-emojipicker/variations/variation_%REPLACE%.svg',
+        variation: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/variation_%REPLACE%.svg',
         emoji: 'https://raw.githubusercontent.com/dexterpedro/vue3-emojipicker/master/public/imgs/emoji.png'
       }
     };
