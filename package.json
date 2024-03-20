@@ -1,0 +1,25 @@
+{
+  "name": "dxt-vue3-emojipicker",
+  "version": "1.0.0",
+  "description": "____",
+  "main": "babel.config.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexterpedro/vue3-emojipicker.git"
+  },
+  "keywords": [
+    "vue3",
+    "emoji"
+  ],
+  "author": "Pedro Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dexterpedro/vue3-emojipicker/issues"
+  },
+  "homepage": "https://github.com/dexterpedro/vue3-emojipicker#readme"
+}
