@@ -6,20 +6,6 @@
           <input v-model="search" class="bg-grey-600 w-full text-sm py-2 px-3 text-white outline-none" :placeholder="selected && selected.name ? `:${selected.name.replace(/\s/g, '')}:`: 'Find the perfect emoji'" />
           <img :src="sources.search" class="w-4" />
         </div>
-        <div class="py-2 px-2 ml-2 relative z-1" @mouseenter="hovered = true" @mouseleave="hovered = false">
-          <img :src="formatUrlSources(variation, sources.variation)" class="w-6 relative z-1" />
-          <div :class="`bg-white border border-grey-600 bg-grey-500 rounded-lg absolute shadow-md -top-1 left-0 w-full -z-1 pt-10 text-center transform ${hovered ? '' : 'pointer-events-none -translate-y-3 opacity-0'} transition duration-300`">
-            <template v-for="emj in 5">
-              <img
-                v-if="variation !== emj - 1"
-                :key="emj"
-                :src="formatUrlSources(emj - 1, sources.variation)"
-                class="w-full px-2 py-2 transition duration-200 hover:bg-grey-400 cursor-pointer vue3-discord-emojipicker__pickvariation"
-                @click="setVariation(emj - 1)"
-              />
-            </template>
-          </div>
-        </div>
       </div>
     </header>
     <div class="vue3-discordpicker__container flex">
