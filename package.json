@@ -1,12 +1,65 @@
 {
   "name": "dxt-vue3-emojipicker",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "____",
-  "main": "babel.config.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "main": "./dist/discordpicker.common.js",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "core-js": "^3.6.5",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^6.0.0",
+    "postcss": "^7.0.35",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^4.1.0",
+    "postcss-modules": "3.0.0",
+    "postcss-nested": "^4.1.2",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name discordpicker ./src/components/DiscordPicker.vue",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
   },
   "repository": {
     "type": "git",
